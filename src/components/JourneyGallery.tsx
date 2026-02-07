@@ -7,25 +7,25 @@ const milestones = [
         id: 1,
         title: "The Beginning",
         description: "The moment our paths crossed and everything changed.",
-        image: "https://github.com/Olubidan/mowa/blob/main/dn1.jpeg"
+        image: "images/dn1.jpeg"
     },
     {
         id: 2,
         title: "The Laughter",
         description: "Shared jokes and moments of pure joy that built our bond.",
-        image: "https://github.com/Olubidan/mowa/blob/main/dn2.jpeg"
+        image: "images/dn2.jpeg"
     },
     {
         id: 3,
         title: "The Growth",
         description: "Supporting each other through every challenge and triumph.",
-        image: "https://github.com/Olubidan/mowa/blob/main/dn3.jpeg"
+        image: "images/dn3.jpeg"
     },
     {
         id: 4,
         title: "Today",
         description: "Stronger than ever, writing our next chapter together.",
-        image: "https://github.com/Olubidan/mowa/blob/main/dn3.jpeg"
+        image: "images/dn3.jpeg"
     }
 ];
 
