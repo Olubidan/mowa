@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --color-mowa-oxblood: #630330;
+  --color-mowa-champagne: #E8D5C4;
+  --color-mowa-gold: #C5A059;
+  --color-mowa-parchment: #F9F7F2;
+  --color-mowa-black: #1A1A1A;
+
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Tenor Sans", sans-serif;
+
+  --background-image-paper-texture: url('https://www.transparenttextures.com/patterns/cream-paper.png');
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-mowa-parchment text-mowa-oxblood font-sans antialiased overflow-x-hidden;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-serif;
+  }
+}
+
+/* Custom scrollbar for webkit */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F9F7F2;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E8D5C4;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C5A059;
+}
