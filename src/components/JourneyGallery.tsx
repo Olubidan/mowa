@@ -25,7 +25,7 @@ const milestones = [
         id: 4,
         title: "Today",
         description: "Stronger than ever, writing our next chapter together.",
-        image: "https://placehold.co/600x800/1A1A1A/F9F7F2?text=Today"
+        image: "/images/dn3.jpeg"
     }
 ];
 
