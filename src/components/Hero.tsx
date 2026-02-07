@@ -12,7 +12,7 @@ export const Hero = () => {
                 transition={{ duration: 0.8, ease: "easeOut" }}
                 className="z-10 text-center px-4"
             >
-                <span className="block text-mowa-gold uppercase tracking-[0.2em] text-sm mb-4">The Mowa Edit</span>
+                <span className="block text-mowa-gold uppercase tracking-[0.2em] text-sm mb-4">To the love of my life</span>
                 <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif text-mowa-oxblood mb-6 leading-tight">
                     To Mowa:<br />
                     <span className="italic">My Forever & Always</span>
